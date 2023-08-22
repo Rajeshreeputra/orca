@@ -304,7 +304,7 @@ class FixtureOptions {
       $this->options['project-template'] = 'acquia/drupal-recommended-project:^1';
     }
     elseif ($this->coreVersionParsedMatches('^10') && $this->isDev()) {
-      $this->options['project-template'] = 'acquia/drupal-recommended-project:dev-master';
+      $this->options['project-template'] = 'acquia/drupal-recommended-project:dev-ACMS-1927';
     }
     else {
       $this->options['project-template'] = 'acquia/drupal-recommended-project';
